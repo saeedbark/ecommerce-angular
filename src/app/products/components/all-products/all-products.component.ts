@@ -27,6 +27,7 @@ export class AllProductsComponent implements OnInit {
       this.loading = false
      } , error => {
       this.loading = false
+      // if error occurs alert the error
       alert( error)
      }   )
   }

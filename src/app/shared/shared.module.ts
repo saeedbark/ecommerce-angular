@@ -19,6 +19,7 @@ import { FormsModule } from '@angular/forms';
     CommonModule,
     BrowserModule ,
     FormsModule,
+    // navbar router link navigate
     RouterModule,
     HttpClientModule
   ],
